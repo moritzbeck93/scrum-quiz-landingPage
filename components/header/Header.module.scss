@@ -1,0 +1,36 @@
+.header {
+    margin-left: 20px;
+    
+  h1 {
+    font-family: "Gilroy";
+    font-weight: 900;
+  }
+}
+
+.ellipse {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: -100px;
+    opacity: 0.5;
+}
+
+.mainPicture {
+    width: 70%;
+    position: relative;
+    left: 200px;
+    float: right;
+    top: -10px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+}
+
+.freeOnlineTestButton {
+   padding-left: 10px;     
+}

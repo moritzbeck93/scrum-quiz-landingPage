@@ -1,0 +1,28 @@
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.children {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.ellipse {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.team {
+  width: 100%;
+}
+
+.headline {
+  text-align: center;
+  padding-top: 90px;
+}
+
+.headline2 {
+  font-family: "Gilroy";
+  font-weight: 900;
+}

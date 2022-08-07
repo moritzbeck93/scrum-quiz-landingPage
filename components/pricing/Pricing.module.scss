@@ -1,0 +1,51 @@
+.container {
+  background-image: url("../../public/images/ellipse4.png");
+  background-repeat: inherit;
+  background-size: cover;
+}
+
+.card {
+  width: 18rem;
+  height: 23rem;
+  border-radius: 81px / 58px;
+}
+
+.cardTitle {
+  font-size: 17px;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 70px;
+}
+
+.price {
+  color: #f1b603;
+  font-family: "Gilroy";
+  font-weight: 600;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.list {
+  list-style: none;
+
+  li::before {
+    content: "\2022";
+    color: #f1b603;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
