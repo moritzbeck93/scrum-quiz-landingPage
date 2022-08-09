@@ -8,9 +8,16 @@
   grid-column-start: 1;
 }
 
+.childrenTeam {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 999;
+}
+
 .ellipse {
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.2;
+  float: left;
 }
 
 .team {
@@ -20,6 +27,10 @@
 .headline {
   text-align: center;
   padding-top: 90px;
+
+  @media (max-width: 991.98px) {
+    padding-top: 0px;
+  }
 }
 
 .headline2 {

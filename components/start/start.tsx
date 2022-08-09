@@ -8,17 +8,17 @@ const Start = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6">
+          <div className="col-lg-6 col-md-12">
             <div className={style.parent}>
               <div className={style.children}>
                 <img className={style.ellipse} src={ellipse.src}></img>
               </div>
-              <div className={style.children}>
+              <div className={style.childrenTeam}>
                 <img className={style.team} src={team.src}></img>
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-lg-6 col-md-12">
             <div className={style.headline}>
               <H2 title="SCRUM"></H2>
             </div>

@@ -1,0 +1,25 @@
+.footer {
+  background-image: url("../../public/images/ellipse5.png");
+  background-repeat: round;
+  background-size: cover;
+  height: 200px;
+
+  li {
+    list-style: none;
+  }
+}
+
+.firstLi {
+  font-family: "Gilroy";
+  font-weight: 600;
+}
+
+.line {
+  width: 80%;
+  border-bottom: 1px solid rgb(88.2, 88.2, 88.2, 0.25);
+}
+
+.legal {
+  color: grey;
+  font-family: "Gilroy";
+}

@@ -20,8 +20,8 @@ const project = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
-            <p>
+          <div className="col-lg-12">
+            <p className={styles.description}>
               Lorem ipsum dolor sit amet consectur adispscing elit, sed do eiu smod tempor Lorem
               ipsum dolor sit amet consectur adispscing elit, sed do eiu smod tempor Lorem ipsum
             </p>

@@ -1,36 +1,56 @@
 .header {
-    margin-left: 20px;
-    
+  padding-left: 60px;
+
   h1 {
     font-family: "Gilroy";
     font-weight: 900;
   }
 }
 
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.children {
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.childrenTeam {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  z-index: 999;
+
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    display: flex;
+  }
+}
+
 .ellipse {
-    width: 70%;
-    float: right;
-    position: relative;
-    top: -100px;
-    opacity: 0.5;
+  width: 85%;
+  height: 85%;
+  opacity: 0.2;
+  float: right;
 }
 
-.mainPicture {
-    width: 70%;
-    position: relative;
-    left: 200px;
-    float: right;
-    top: -10px;
-}
+.team {
+  float: right;
+  width: 70%;
 
-.imageContainer {
-    position: relative;
-}
+  // Medium devices (tablets, less than 992px)
+  @media (max-width: 991.98px) {
+    margin: 35px;
+    width: 100%;
+  }
 
-.overlay {
-    position: absolute;
+  // Large devices (desktops, less than 1200px)
+  @media (min-width: 1199.98px) {
+    width: 50%;
+  }
 }
 
 .freeOnlineTestButton {
-   padding-left: 10px;     
+  padding-left: 10px;
 }

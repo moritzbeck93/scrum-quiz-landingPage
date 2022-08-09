@@ -10,25 +10,25 @@ const Pricing = () => {
   return (
     <>
       <div className={`${styles.container} container-fluid`}>
-        <div className="row">
+        <div className="row pt-5 g-0">
           <div className="col d-flex justify-content-center">
             <H2 title="PACKAGES"></H2>
           </div>
         </div>
-        <div className="row">
+        <div className="row g-0">
           <div className="col d-flex justify-content-center">
             <h1>Pricing Plans</h1>
           </div>
         </div>
-        <div className="row">
+        <div className="row g-0">
           <div className="col d-flex justify-content-center">
             <p>
               Lorem ipsum dolor sit amet consectur adispscing elit, sed do eiu smod tempor Lorem
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-4 d-flex justify-content-center">
+        <div className="row pt-3 g-0">
+          <div className="col-lg-4 col-md-12 d-flex justify-content-center">
             <div className={`${styles.card} card`}>
               <div className="card-body">
                 <div className={`${styles.cardTitle} card-title`}>
@@ -61,7 +61,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-12 d-flex justify-content-center">
             <div className={`${styles.card} card`}>
               <div className="card-body">
                 <div className={`${styles.cardTitle} card-title`}>
@@ -94,7 +94,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-12 d-flex justify-content-center">
             <div className={`${styles.card} card`}>
               <div className="card-body">
                 <div className={`${styles.cardTitle} card-title`}>

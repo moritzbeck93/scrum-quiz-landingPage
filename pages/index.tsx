@@ -8,6 +8,9 @@ import Projects from "../components/projects/projects";
 import Start from "../components/start/start";
 import Packages from "../components/pricing/pricing";
 import Reviews from "../components/reviews/reviews";
+import Blog from "../components/blog/blog";
+import Footer from "../components/footer/footer";
+import { useEffect } from "react";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +21,8 @@ const Home: NextPage = () => {
       <Start />
       <Packages />
       <Reviews />
+      <Blog />
+      <Footer />
     </>
   );
 };
